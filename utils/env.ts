@@ -1,0 +1,1 @@
+export const QR_CODE_API = process.env.NEXT_PUBLIC_QR_CODE_API as string

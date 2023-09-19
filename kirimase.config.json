@@ -1,0 +1,10 @@
+{
+  "hasSrc": false,
+  "packages": [],
+  "preferredPackageManager": "bun",
+  "rootPath": "",
+  "orm": null,
+  "driver": null,
+  "provider": null,
+  "auth": null
+}
