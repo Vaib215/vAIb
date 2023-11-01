@@ -5,7 +5,7 @@ import { QR_CODE_API } from "@/utils/env";
 import axios from "axios";
 import { redirect } from "next/navigation";
 
-export const generateQR = async (formData: FormData) => {
+const generateQR = async (formData: FormData) => {
     "use server";
     const response = await axios.post(QR_CODE_API, {
         "prompt": formData.get('description'),

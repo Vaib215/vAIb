@@ -26,18 +26,18 @@ function StreamDataFromApi() {
           responseType: 'stream',
         };
 
-        const response = await axios.request(options);
+        // const response = await axios.request(options);
 
-        // Assuming the API response is a text document, you can process it here
-        // For example, you can convert the stream to a string
-        let data = '';
-        response.data.on('data', (chunk) => {
-          data += chunk.toString('utf8');
-        });
+        // // Assuming the API response is a text document, you can process it here
+        // // For example, you can convert the stream to a string
+        // let data = '';
+        // response.data.on('data', (chunk) => {
+        //   data += chunk.toString('utf8');
+        // });
 
-        response.data.on('end', () => {
-          setDataStream(data);
-        });
+        // response.data.on('end', () => {
+        //   setDataStream(data);
+        // });
       } catch (error) {
         console.error('Error fetching data:', error);
       }
