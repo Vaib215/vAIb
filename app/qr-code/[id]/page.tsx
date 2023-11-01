@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useParams } from "next/navigation"
 
 export default async function ({ params }: {
     params: { id: string }
