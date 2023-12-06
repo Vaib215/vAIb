@@ -1,5 +1,8 @@
 {
     "recommendations": [
-        "ankitpati.vscodium-amoled"
+        "ankitpati.vscodium-amoled",
+        "redwan-hossain.skillavid-pure-black",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode"
     ]
 }

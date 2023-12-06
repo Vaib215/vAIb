@@ -41,8 +41,9 @@ export default function Daigram() {
             id="diagram-name"
             name="diagram-name"
             placeholder="Enter diagram name"
+            required
           />
-          <Select name="diagram-type">
+          <Select name="diagram-type" required>
             <SelectTrigger id="diagram-type">
               <SelectValue placeholder="Select type" />
             </SelectTrigger>
